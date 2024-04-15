@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+           
+            <h1 class="judul">Barr-Project</h1>
+            <nav class="navbar1">
+                <ul>
+                    <li>
+                        <a href="#">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="https://ubpkarawang.ac.id/" target="_blank">UBP</a>
+                    </li>
+                    <li>
+                        <a href="#ListTugas">List Tugas</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sprt">
+                <span>Supported by:</span>
+                <img src="f1.png" alt="dosen">
+                <a href="https://Adirp.id" target="_blank">Adi Rizky Pratama, S.Kom., M.Kom Dosen</a>
+                <div class="logo-ubp"></div>
+               <p>Universitas <br>Buana <br>Perjuangan</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero"></div>
+            <article>
+                <h2>Apa itu Basis Data?</h2>
+
+                <p class="metadata">Diposting oleh <a href="https://www.instagram.com/barr_kanaeru/" target="_blank">Akbar Rahmat Hidayat</a>, 07 Oktober 2023
+                </p>
+                <p class="P1">Basis data (database) adalah kumpulan data yang terorganisir dengan baik yang disimpan secara elektronik di dalam komputer atau sistem informasi. Basis data ini dirancang untuk menyimpan, mengelola, dan mengakses informasi dengan efisien. Dalam basis data, data-data tersebut diorganisir ke dalam tabel atau struktur data lainnya, dan pengguna dapat melakukan berbagai operasi, seperti pencarian, penambahan, penghapusan, dan pembaruan data.
+                    <br>
+                    Basis data memiliki beberapa karakteristik utama, termasuk:</p>
+                <div class="p1">
+                <ol>
+                    <li>Struktur Terorganisir: Data dalam basis data diatur dalam struktur yang terdefinisi dengan baik, seperti tabel, baris, dan kolom. Ini membantu dalam mengatur data dengan baik dan memungkinkan pengguna untuk mengaksesnya dengan mudah.</li>
+                    <li>Pengelolaan Data: Basis data memungkinkan manajemen data yang efisien. Ini mencakup fungsi seperti penyimpanan data, pembaruan data, pencarian data, dan lainnya.</li>
+                    <li>Berkas Data yang Terintegrasi: Basis data dapat menggabungkan data dari berbagai sumber yang berbeda ke dalam satu tempat. Hal ini memungkinkan pengguna untuk melihat dan menganalisis data dengan lebih baik.</li>
+                    <li>Akses Terkendali: Basis data memiliki sistem pengaturan akses yang memungkinkan pengguna untuk mengakses data hanya sesuai dengan izin dan hak akses yang ditentukan. Ini penting untuk menjaga keamanan data.</li>
+                    <li>Redundansi Minim: Basis data dirancang untuk menghindari atau meminimalkan duplikasi data. Dengan demikian, data dapat diambil dan dikelola dengan lebih efisien.</li>
+                    <li>Pemulihan Data: Basis data sering dilengkapi dengan fasilitas pemulihan data, yang memungkinkan pemulihan data jika terjadi kegagalan sistem atau kesalahan manusia.</li>
+                    <li>Penggunaan Transaksi: Banyak basis data mendukung transaksi, yang merupakan serangkaian operasi yang dapat dianggap sebagai satu unit kerja. Ini membantu menjaga integritas data.</li>
+                </ol>
+                </div>
+                <p id="ListTugas">Contoh dari jenis basis data termasuk basis data relasional (seperti MySQL, Oracle, SQL Server), basis data berorientasi dokumen (seperti MongoDB), dan basis data berorientasi graf (seperti Neo4j). Basis data digunakan secara luas dalam berbagai aplikasi dan sistem informasi, termasuk sistem perbankan, manajemen inventaris, situs web, dan banyak lagi.</p>
+            </article>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">List Tugas</button>
+                    <div class="dropdown-content"> 
+                    <a href="#Tugas1">Tugas Pertemuan 1</a>
+                    <a href="#Tugas2">Tugas Pertemuan 2</a>
+                    <a href="#Tugas3">Tugas Pertemuan 3</a>
+                    <a href="#Tugas4">Tugas Pertemuan 4</a>
+                    <a href="#Tugas5">Tugas Pertemuan 5</a>
+                    </div>
+                </div>
+            </div>
+            <article>
+            <div class="Tugas1" id="Tugas1">
+                <h3>Apa itu attribute, entitas dan relasi dalam ERD ?</h3>
+                <p>Dalam desain basis data, Entity-Relationship Diagram (ERD) digunakan untuk menggambarkan struktur data, hubungan antara entitas (entities), dan atribut (attributes) yang ada dalam sistem. Berikut penjelasan singkat tentang apa itu atribut, entitas, dan relasi dalam ERD:
+                    <ol>
+                        <li>Entitas (Entities):
+                            <ul>
+                                <li>Entitas adalah objek atau konsep yang dapat disimpan dalam basis data. Mereka mewakili objek nyata atau abstrak dalam dunia nyata, seperti manusia, buku, kendaraan, atau konsep seperti pesanan atau transaksi.</li>
+                                <li>Setiap entitas memiliki atribut yang mendefinisikan karakteristik atau properti dari entitas tersebut. Misalnya, untuk entitas "Manusia," atributnya dapat mencakup nama, alamat, tanggal lahir, dan lainnya.</li>
+                                <li>Entitas dalam ERD biasanya digambarkan sebagai persegi panjang</li>
+                            </ul>
+                        </li>
+                        <li>Atribut (Attributes):
+                            <ul>
+                                <li>Atribut adalah karakteristik atau data yang berkaitan dengan entitas. Mereka adalah informasi yang ingin kita simpan atau pelajari tentang entitas dalam basis data.</li>
+                                <li>Contoh atribut untuk entitas "Buku" bisa mencakup judul, penulis, tahun terbit, harga, dan ISBN.</li>
+                                <li>Atribut dalam ERD biasanya digambarkan sebagai oval dan terhubung ke entitas dengan garis.</li>
+                            </ul>
+                        </li>
+                        <li>Relasi (Relationships):
+                            <ul>
+                                <li>Relasi adalah cara entitas berinteraksi atau terhubung satu sama lain dalam basis data. Mereka menggambarkan bagaimana entitas berhubungan satu sama lain dan membentuk struktur data yang lebih kompleks.</li>
+                                <li>Contoh relasi bisa menjadi "Peminjaman" antara entitas "Anggota Perpustakaan" dan "Buku." Ini menggambarkan bagaimana anggota perpustakaan meminjam buku tertentu dalam sistem.</li>
+                                <li>
+                                    Relasi dalam ERD biasanya digambarkan sebagai garis yang menghubungkan dua atau lebih entitas, dan sering memiliki label yang menjelaskan hubungan antara entitas tersebut.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    ERD membantu dalam merancang dan memahami struktur data dalam basis data. Dengan merinci entitas, atribut, dan relasi di dalamnya, Anda dapat menggambarkan secara jelas bagaimana data akan disimpan, diakses, dan digunakan dalam sistem yang Anda bangun.
+                </p>
+            </div>
+            </article>
+            <h2>Contoh graf ERD</h2>
+            <div class="hero2"  id="Tugas2"></div>
+            <article>
+                <div class="Tugas2"">
+                    <h3>Apa itu PrimaryKey, Foregent Key dan Candidate Key. berikan masing-masih 5 contoh pada penerapan ERD</h3>
+                    <p>PrimaryKey, ForeignKey, dan Candidate Key adalah konsep yang penting dalam desain basis data, terutama dalam konteks Entity-Relationship Diagrams (ERD). Berikut adalah penjelasan singkat beserta contoh penggunaannya dalam ERD:</p>
+                    <ol>
+                        <li>
+                           PrimaryKey (Kunci Utama): 
+                           <ul>
+                            <li>
+                                Primary Key adalah atribut (kolom) dalam sebuah tabel yang unik mengidentifikasi setiap baris atau rekaman.
+                            </li>
+                            <li>
+                                Primary Key digunakan untuk memastikan keunikan setiap entitas dalam tabel.
+                            </li>
+                            <li>
+                                Contoh: Dalam sebuah tabel "Pegawai," kolom "ID_Pegawai" bisa menjadi Primary Key yang unik mengidentifikasi setiap pegawai.
+                            </li>
+                           </ul>
+                        </li>
+                        <li>
+                           ForeignKey (Kunci Asing):
+                           <ul>
+                            <li>
+                                ForeignKey adalah atribut yang menghubungkan satu tabel ke tabel lainnya.
+                            </li>
+                            <li>
+                                Ini digunakan untuk membangun relasi antara tabel.
+                            </li>
+                            <li>
+                                Ini digunakan untuk membangun relasi antara tabel.
+                            </li>
+                            <li>
+                                ForeignKey biasanya mencerminkan hubungan antara entitas dalam ERD.
+                            </li>
+                            <li>
+                                Contoh: Dalam ERD, sebuah tabel "Pesanan" dapat memiliki ForeignKey ke tabel "Pelanggan" dengan kolom "ID_Pelanggan" yang mengacu pada Primary Key "ID_Pelanggan" di tabel "Pelanggan."
+                            </li>
+                           </ul>
+                        </li>
+                        <li>
+                            Candidate Key (Kunci Kandidat): 
+                            <ul>
+                                <li>
+                                    Candidate Key adalah atribut atau kombinasi atribut yang juga dapat berfungsi sebagai Primary Key.
+                                </li>
+                                <li>
+                                    Candidate Key adalah atribut atau kombinasi atribut yang juga dapat berfungsi sebagai Primary Key.
+                                </li>
+                                <li>
+                                    Mereka unik mengidentifikasi setiap entitas dalam tabel.
+                                </li>
+                                <li>
+                                    Dalam sebuah tabel, mungkin ada beberapa kunci kandidat, dan Anda harus memilih satu sebagai Primary Key.
+                                </li>
+                                <li>
+                                    Contoh: Dalam tabel "Mata Kuliah," kolom "Kode_Mata_Kuliah" dan kolom "Nama_Mata_Kuliah" keduanya dapat berfungsi sebagai kunci kandidat.
+
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+Contoh penerapan ERD:
+                    <div class="hero3" id="Tugas3"></div>
+                </div>
+
+            </article>
+            <article>
+                <div class="Tugas3">
+                    <h3>Apa itu relation pada ERD, Mengapa many-to-many tidak baik digunakan pada ERD</h3>
+                    <p>
+                        ERD (Entity-Relationship Diagram) adalah suatu model visual yang digunakan untuk merepresentasikan hubungan antara entitas dalam suatu sistem informasi. Relation (hubungan) dalam ERD mengacu pada koneksi antara entitas atau tabel dalam basis data.
+
+Many-to-many (banyak-ke-banyak) adalah jenis hubungan di mana satu entitas pada satu sisi dapat terhubung dengan banyak entitas pada sisi lain, dan sebaliknya. Contoh klasik many-to-many adalah hubungan antara mahasiswa dan mata kuliah: satu mahasiswa dapat mengambil banyak mata kuliah, dan satu mata kuliah dapat diambil oleh banyak mahasiswa.
+
+Meskipun many-to-many dapat direpresentasikan dalam ERD, seringkali disarankan untuk menghindari hubungan many-to-many di antara entitas karena dapat menyebabkan masalah dalam desain basis data. Beberapa alasan mengapa many-to-many tidak diinginkan adalah:
+                    </p>
+                    <ol>
+                        <li>
+                            Kompleksitas Querying: 
+                            <p>
+                                Ketika Anda memiliki hubungan many-to-many, menulis query untuk mengambil atau memodifikasi data dapat menjadi lebih kompleks. Ini karena memerlukan penggunaan operasi gabungan (join) yang kompleks untuk mengaitkan informasi dari dua entitas yang terhubung melalui tabel hubungan. 
+                            </p>
+                        </li>
+                        <li>
+                            Kesulitan dalam Pemeliharaan Data:  
+                            <p>
+                                Pemeliharaan integritas referensial menjadi lebih sulit dengan many-to-many. Perubahan dalam satu sisi hubungan dapat memerlukan perubahan yang rumit di sisi lain, dan hal ini dapat meningkatkan risiko kesalahan dan kehilangan integritas data.
+                            </p>
+                        </li>
+                        <li>
+                            Kurangnya Struktur yang Jelas:
+                            <p >
+                                Many-to-many dapat menyebabkan kurangnya struktur yang jelas dalam basis data. Ini dapat membuat sulit untuk memahami dan memelihara desain basis data seiring waktu.
+                            </p>
+                        </li>
+                        <li>
+                            Efisiensi Performa: 
+                            <p id="Tugas4">
+                                Dalam beberapa kasus, hubungan many-to-many dapat memengaruhi performa basis data. Query yang melibatkan join pada tabel-tabel many-to-many cenderung memerlukan sumber daya lebih besar.
+                            </p>
+                        </li><br>
+                    </ol>
+                </div>
+            </article>
+            <article>
+                <div class="Tugas4">
+                    <h3>apa itu normalisasi pada ERD</h3>
+                    <p>
+                        Normalisasi dalam desain basis data adalah suatu proses yang digunakan untuk menyusun dan mengorganisir struktur data agar lebih efisien. Proses ini bertujuan untuk mengurangi duplikasi data dan meningkatkan ketergantungan data, sehingga integritas data dapat dipertahankan dengan baik. <br>
+
+Basis data relasional biasanya diorganisir dalam tabel. Normalisasi mengacu pada pengaturan tabel tersebut agar memenuhi persyaratan tertentu. Terdapat beberapa tingkat normalisasi, mulai dari Bentuk Normal Pertama (1NF) hingga Bentuk Normal Kelima (5NF). <br>
+
+1NF memastikan bahwa setiap sel dalam tabel hanya berisi satu nilai dan setiap baris serta kolom unik. 2NF menuntut bahwa setiap atribut non-kunci sepenuhnya bergantung pada kunci utama, tanpa adanya dependensi parsial. 3NF mengharuskan bahwa tidak ada dependensi transitif di antara atribut non-kunci. <br>
+
+Ada pula Bentuk Normal Boyce-Codd (BCNF), yang merupakan bentuk khusus dari 3NF. BCNF menetapkan bahwa setiap dependensi fungsional non-trivial harus bergantung pada kunci utama. <br>
+ </div>  <div id="Tugas5"></div>
+Normalisasi membantu mencegah anomali data, seperti update anomali dan delete anomali, yang dapat terjadi jika struktur basis data tidak diorganisir dengan baik. Meskipun normalisasi memiliki manfaat, perlu diingat bahwa terlalu banyak normalisasi juga dapat meningkatkan kompleksitas query, sehingga perlu diterapkan dengan bijak sesuai kebutuhan aplikasi. <br>
+                            
+                    </p>
+                  
+               
+            </article>
+            <article>
+                <div class="Tugas5">
+                    <h3>apa itu denormalisasi pada ERD</h3>
+                    <p>
+                        Denormalisasi adalah suatu proses desain basis data yang melibatkan penggabungan tabel-tabel terkait dalam suatu basis data relasional untuk mengurangi kompleksitas query dan meningkatkan kinerja dalam operasi pembacaan data. Dalam konteks denormalisasi, hubungan antar tabel seringkali dikurangi dengan menggabungkan tabel-tabel terkait sehingga data dapat diambil lebih efisien, bahkan jika itu berarti beberapa tingkat redundansi data. <br>
+
+Proses denormalisasi bertentangan dengan proses normalisasi, yang berusaha untuk mengurangi redundansi dan dependensi data. Denormalisasi sering digunakan dalam situasi di mana kinerja query sangat penting, dan risiko terjadinya anomali data akibat redundansi data dianggap dapat dikelola atau diabaikan. <br>
+
+Beberapa alasan umum untuk melakukan denormalisasi meliputi:  
+                    </p>
+                    <ol>
+                        <li>Kinerja Query yang Lebih Baik:
+                            <p>Dengan menggabungkan tabel-tabel terkait, query dapat dieksekusi lebih cepat karena memerlukan lebih sedikit operasi gabungan (join).</p>
+                        </li>
+                        <li>Sederhana untuk Query: 
+                            <p> Denormalisasi membuat query lebih sederhana dan mudah dimengerti, karena data yang diperlukan dapat ditemukan dalam satu tabel daripada tersebar di beberapa tabel.</p>
+                        </li>
+                        <li>Sederhana untuk Query: Mengurangi Jumlah Join: 
+                             <p> Join adalah operasi yang memerlukan sumber daya komputasi. Dengan mengurangi jumlah join, kinerja basis data dapat ditingkatkan.</p>
+                        </li>
+                        <li>Pemeliharaan Lebih Mudah:
+                            <p>Dalam beberapa kasus, denormalisasi dapat membuat pemeliharaan data menjadi lebih sederhana karena tidak perlu memperhatikan struktur tabel yang kompleks.</p>
+                        </li>
+                    </ol>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <p class="copyright">Copyright 2023 &copy; Akbar Rahmat Hidayat M</p>
+        </footer>
+    </div>
+</body>
+
+</html>
